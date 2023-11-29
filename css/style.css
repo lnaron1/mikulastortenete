@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+* {
+    outline: 1px solid red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: #fefefe;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/mikulas-2021.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1c1c1c;
+    font-family: 'Hedvig Letter Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: #b0c8ff;
+}
+
+.navbtn {
+    margin: 0px 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Hedvig Letter Sans', sans-serif;
+    color: #1c1c1c;
+    font-size: medium;
+}
+
+.collapsednavbar {
+    display: none;
+}
